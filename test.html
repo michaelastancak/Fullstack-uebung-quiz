@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="quiz_css.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+  </head>
 <body>
-    <h1   id="title">This is a Quiz!</h1>
-<p  class="content">Welcome to the quiz! Answer the following questions:</p>
+<div class="banner-container">
+  <img src="header_bild_quiz_italian.png" alt="Quiz Header" class="banner-image">
+  
+  <div class="banner-text">
+    <h1 id="title">Questo è un quiz!</h1>
+  </div>
+    <p class="content">Hello and welcome, hope you like to cook or eat italian food!</p>
+
+</div>
+
+
+<div class="quiz-container">
+
+  <details class="div"open>
+
+    <summary class="question-box">
+      <b>
+    <span id="question"></span>
+      </b>
+    </summary>
+
+  <ul id="answers"></ul>
+  
+  <button id="restartBtn">Restart Quiz</button>
+  <button id="nextBtn">Next Question</button>
+
+</details>
+
+</div>
+
+<script src="quiz.js"></script>
 </body>
 </html>
 

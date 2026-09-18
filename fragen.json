@@ -1,0 +1,35 @@
+[
+    {
+        "frage": "Which ingredient is excluded from a traditional <a href='https://en.wikipedia.org/wiki/Carbonara' >alla Carbonara</a>?",
+        "linkText": "Spaghetti alla Carbonara",
+        "antworten": [
+           "Pecorino Romano",
+           "Guanciale",
+           "Egg yolks",
+           "Heavy cream"
+        ],
+        "korrekt": "Heavy cream"
+},
+{
+        "frage": "What flour is used for <a href='https://de.wikipedia.org/wiki/Pasta' targetrbonara</a>pasta secca?",
+        "linkText": "pasta secca",
+        "antworten": [
+            "Whole grain spelt",
+            "Semolina flour",
+            "Tipo 00 flour",
+            "All-purpose flour"
+        ],
+        "korrekt": "Semolina flour"
+},
+{
+        "frage": "Where did <a href='https://de.wikipedia.org/wiki/Tiramisu' >Tiramisù</a> originate?",
+        "linkText": "Tiramisù",
+        "antworten": [
+            "Campania",
+            "Veneto",
+            "Sicily",
+            "Tuscany"
+],
+        "korrekt": "Veneto"
+}
+]
